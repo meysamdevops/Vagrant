@@ -10,8 +10,9 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define "master" do |m|
-    n.vm.box = "bento/ubuntu-20.04"
+    m.vm.box = "bento/ubuntu-20.04"
     m.vm.hostname = "master"
     m.vm.network :private_network, ip: "192.168.50.10"
   end
+
 end
