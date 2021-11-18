@@ -4,8 +4,8 @@
 
   vars:
     proxy_env:
-      http_proxy: http://185.221.237.46:4545
-      https_proxy: http://185.221.237.46:4545
+      http_proxy: ""
+      https_proxy: ""
   
   tasks:
   - name: Install packages that allow apt to be used over HTTPS
